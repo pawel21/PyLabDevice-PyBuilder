@@ -1,6 +1,7 @@
 import unittest
+
+from device.IODevice import IODevice, ProblemConnectionWithDeviceException
 from mock import patch
-from IODevice import IODevice, ProblemConnectionWithDeviceException
 
 
 class IODeviceTest(unittest.TestCase):
