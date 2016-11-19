@@ -20,3 +20,5 @@ def set_properties(project):
 @init
 def initialize(project):
     project.build_depends_on("mock")
+    project.build_depends_on("multi_key_dict", version="2.0.3")
+    project.build_depends_on("numpy", version="1.12.0b1")
